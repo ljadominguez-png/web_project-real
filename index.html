@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div style="font-weight: 900; letter-spacing: 1px;">LJD // PORTFOLIO</div>
+        <nav class="tactical-nav">
+            <a href="#hero" >Overview</a>
+            <a href="#projects">Projects</a>
+            <a href="#tech-stack">Tech Stack</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div style="font-size: 12px; font-weight: bold; color: #555;">CLEARANCE: LEVEL 03</div>
+    </header>
+    <!--My hero section-->
+    <section id="hero" class="hero-screen">
+        <!--upper half text and the portrait picture-->
+        <div class="hero-main">
+            <div class="hero-text">
+                <h1 class="headline">EFFICIENCY FIRST</h1>
+                <p class="subheadline">Adaptability is the key to success.</p>
+            </div>
+
+            <div class="hero-character">
+                <img src="assets/pfp.png" alt="Hero Portrait" />
+            </div>
+        </div>
+        <!-- Lower Half: Tactical Card Dock -->
+        <div class="hero-tray">
+            <!-- Left Column: Featured Work (Claire / Lina style) -->
+            <div class="tray-col col-featured">
+                <div class="tray-header">| FEATURED WORK</div>
+                <div class="featured-cards">
+                    <div class="card card-accent-blue">
+                        <div class="card-meta">SYSTEM 01</div>
+                        <h3 class="card-title">v3 MONOLITH</h3>
+                        <p class="card-desc">Local-first offline task engine with clean architecture.</p>
+                    </div>
+                    <div class="card card-accent-cyan">
+                        <div class="card-meta">PROJECT 02</div>
+                        <h3 class="card-title">NEURAL CORE</h3>
+                        <p class="card-desc">Embedded ML inference module with low-level runtime.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Tech Capabilities (Employees' Voices style) -->
+            <div class="tray-col col-skills">
+                <div class="tray-header">| TECH STACK & CAPABILITIES</div>
+                <div class="skills-strip">
+                    <div class="skill-pill">
+                        <span class="skill-name">FLUTTER / DART</span>
+                        <span class="skill-desc">Mobile Client</span>
+                    </div>
+                    <div class="skill-pill">
+                        <span class="skill-name">C++ / C#</span>
+                        <span class="skill-desc">Systems & Engine</span>
+                    </div>
+                    <div class="skill-pill">
+                        <span class="skill-name">PYTHON</span>
+                        <span class="skill-desc">ML & Tooling</span>
+                    </div>
+                    <div class="skill-pill">
+                        <span class="skill-name">LINUX</span>
+                        <span class="skill-desc">Fedora / POSIX</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Projects-->
+<section id="projects" class="archive-section">
+  <div class="archive-container">
+    
+    <!-- Left Tactical Info Card -->
+    <aside class="archive-sidebar">
+      <div class="sidebar-header">PROJECT DIRECTORY</div>
+      <p class="sidebar-desc">
+        All active deployments, software builds, and experimental modules are cataloged below. 
+        Select any record to view technical breakdown and repository links.
+      </p>
+      <div class="sidebar-meta">
+        <span class="meta-tag">CLEARANCE: LEVEL 03</span>
+        <span class="meta-tag">STATUS: SYNCHRONIZED</span>
+      </div>
+    </aside>
+
+    <!-- Right Tactical Data Table -->
+    <main class="archive-table-wrapper">
+      <table class="tactical-table">
+        <thead>
+          <tr>
+            <th class="th-marker"></th>
+            <th class="th-title">TITLE</th>
+            <th class="th-desc">DESCRIPTION</th>
+            <th class="th-status">STATUS</th>
+            <th class="th-date">COMPLETION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Item 1: Monolith -->
+          <tr class="table-row">
+            <td class="td-marker"><span class="badge-square ongoing"></span></td>
+            <td class="td-title">v3 MONOLITH</td>
+            <td class="td-desc">Local-first, offline productivity mobile client with clean architecture.</td>
+            <td class="td-status"><span class="status-pill status-ongoing">ONGOING</span></td>
+            <td class="td-date">ACTIVE DEV</td>
+          </tr>
+
+          <!-- Item 2: Ease ID -->
+          <tr class="table-row">
+            <td class="td-marker"><span class="badge-square completed"></span></td>
+            <td class="td-title">EASE ID</td>
+            <td class="td-desc">Streamlined identity verification & authentication service interface.</td>
+            <td class="td-status"><span class="status-pill status-finished">DEPLOYED</span></td>
+            <td class="td-date">2026.09</td>
+          </tr>
+
+          <!-- Item 3: WebApp Interactive Reviewer -->
+          <tr class="table-row">
+            <td class="td-marker"><span class="badge-square completed"></span></td>
+            <td class="td-title">INTERACTIVE REVIEWER</td>
+            <td class="td-desc">Responsive web study engine featuring dynamic quizzes and progress analytics.</td>
+            <td class="td-status"><span class="status-pill status-finished">DEPLOYED</span></td>
+            <td class="td-date">2026.08</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+</section>
+
+<section id="tech-stack" class="stack-section">
+  <div class="stack-container">
+    
+    <!-- LEFT PANEL: CERTIFICATIONS (2x2 Grid) -->
+    <div class="cert-panel">
+      <div class="cert-header">
+        <div class="cert-title-group">
+          <span class="cert-badge">VERIFIED CREDENTIALS</span>
+          <h2>CERTIFICATIONS & HONORS</h2>
+        </div>
+        <span class="cert-code">SEC-ID // VERIFIED</span>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Cert 1 -->
+        <div class="cert-card">
+          <span class="cert-id">CERT-01</span>
+          <h4>Google Cloud Foundations</h4>
+          <p>Cloud Architecture & Core Services</p>
+          <span class="cert-issuer">Google Cloud Platform</span>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card">
+          <span class="cert-id">CERT-02</span>
+          <h4>Mobile App Development</h4>
+          <p>Flutter SDK & Dart Systems</p>
+          <span class="cert-issuer">Issued 2026</span>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card">
+          <span class="cert-id">CERT-03</span>
+          <h4>Java SE Programming</h4>
+          <p>Object-Oriented Design & Data Structures</p>
+          <span class="cert-issuer">Oracle Academy</span>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card">
+          <span class="cert-id">CERT-04</span>
+          <h4>Git & Version Control</h4>
+          <p>Collaborative Workflow & CI Pipelines</p>
+          <span class="cert-issuer">GitHub Professional</span>
+        </div>
+      </div>
+
+      <div class="cert-footer">
+        <span>ARCHIVE REF: 2026.SEC-04</span>
+        <span class="cert-status">● VERIFIED ALL CLEAR</span>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL: TECH STACK (Forum List Style) -->
+    <div class="tech-panel">
+      <div class="tech-header">
+        <h3>MY TECH-STACK</h3>
+      </div>
+
+      <div class="tech-list">
+        <!-- Item 1: Flutter -->
+        <div class="tech-item">
+          <div class="tech-icon-box">FL</div>
+          <div class="tech-info">
+            <div class="tech-meta">
+              <span class="tech-name">FLUTTER / DART</span>
+              <span class="tech-role-badge badge-primary">Framework</span>
+            </div>
+            <p class="tech-desc">Cross-platform mobile UI with clean state architecture.</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Java -->
+        <div class="tech-item">
+          <div class="tech-icon-box">JV</div>
+          <div class="tech-info">
+            <div class="tech-meta">
+              <span class="tech-name">JAVA</span>
+              <span class="tech-role-badge badge-secondary">Language</span>
+            </div>
+            <p class="tech-desc">Object-oriented core logic and desktop systems development.</p>
+          </div>
+        </div>
+
+        <!-- Item 3: SQFlite -->
+        <div class="tech-item">
+          <div class="tech-icon-box">SQL</div>
+          <div class="tech-info">
+            <div class="tech-meta">
+              <span class="tech-name">SQFLITE</span>
+              <span class="tech-role-badge badge-accent">Database</span>
+            </div>
+            <p class="tech-desc">Local relational storage, caching, and offline-first persistence.</p>
+          </div>
+        </div>
+
+        <!-- Item 4: GitHub -->
+        <div class="tech-item">
+          <div class="tech-icon-box">GIT</div>
+          <div class="tech-info">
+            <div class="tech-meta">
+              <span class="tech-name">GITHUB</span>
+              <span class="tech-role-badge badge-dark">DevOps</span>
+            </div>
+            <p class="tech-desc">Source control, git branches, project boards, and release flow.</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Firebase -->
+        <div class="tech-item">
+          <div class="tech-icon-box">FB</div>
+          <div class="tech-info">
+            <div class="tech-meta">
+              <span class="tech-name">FIREBASE</span>
+              <span class="tech-role-badge badge-accent">Cloud</span>
+            </div>
+            <p class="tech-desc">Authentication, Cloud Firestore, and real-time remote syncing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="contact" class="dossier-section">
+  <div class="dossier-container">
+    
+    <!-- LEFT PANEL: TRANSMISSION DIRECTIVE -->
+    <aside class="dossier-brief">
+      <div class="brief-header">COMMUNICATION DIRECTIVE</div>
+      <p class="brief-body">
+        Open for technical collaborations, mobile application engineering, and low-level software projects.
+        Transmission channels remain open for active deployment inquiries.
+      </p>
+      <p class="brief-body">
+        Select a verified channel on the right to review repository history or initiate professional contact.
+      </p>
+      <div class="brief-meta">
+        <span class="brief-code">CLEARANCE // RECRUITMENT</span>
+        <span class="brief-status">RESPONSE TIME: &lt; 24H</span>
+      </div>
+    </aside>
+
+    <!-- RIGHT CARDS: GITHUB & LINKEDIN -->
+    <div class="dossier-cards">
+      
+      <!-- CARD 1: GITHUB -->
+      <div class="target-card">
+        <!-- Top Tags -->
+        <div class="target-top-bar">
+          <span>Source Control</span>
+          <span>Open Source</span>
+        </div>
+
+        <!-- IMAGE SLOT (Insert your photo/avatar here) -->
+        <div class="target-image-slot">
+          <img src="assets/github-dossier.png" alt="GitHub Profile Target" />
+          <div class="target-vignette"></div>
+        </div>
+
+        <!-- Card Identity Info Overlay -->
+        <div class="target-content">
+          <div class="target-id">
+            <h2>GIT // HUB</h2>
+            <p class="target-sub">Active Repositories & Builds</p>
+          </div>
+
+          <div class="target-stats">
+            <span class="stat-label">REPOSITORIES & COMMITS</span>
+            <div class="stat-value">PUBLIC ACCESS</div>
+          </div>
+
+          <a href="https://github.com/your-username" target="_blank" class="target-btn btn-blue">
+            <span>TRANSMIT // VIEW GITHUB</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD 2: LINKEDIN -->
+      <div class="target-card">
+        <!-- Top Tags -->
+        <div class="target-top-bar">
+          <span>Professional Network</span>
+          <span>Verified Identity</span>
+        </div>
+
+        <!-- IMAGE SLOT (Insert your photo/avatar here) -->
+        <div class="target-image-slot">
+          <img src="assets/linkedin-dossier.png" alt="LinkedIn Profile Target" />
+          <div class="target-vignette"></div>
+        </div>
+
+        <!-- Card Identity Info Overlay -->
+        <div class="target-content">
+          <div class="target-id">
+            <h2>LINKED // IN</h2>
+            <p class="target-sub">Experience & Endorsements</p>
+          </div>
+
+          <div class="target-stats">
+            <span class="stat-label">NETWORK CLEARANCE</span>
+            <div class="stat-value">DIRECT CONNECT</div>
+          </div>
+
+          <a href="https://linkedin.com/in/your-profile" target="_blank" class="target-btn btn-white">
+            <span>▲ TRANSMIT // CONNECT</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+</body>
+
+</html>
